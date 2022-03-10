@@ -1,15 +1,15 @@
-import InformationCode from "../components/InformationCode"
-import ProjectLink from "../components/Project"
+import InformationCode from "@/components/InformationCode"
+import ProjectLink from "@/components/Project"
 
 import type { NextPage } from "next"
 import type { Project } from "../types"
 
 const projects: Project[] = [
 	{
-		title: "Slides",
-		subject: "Programação Web III",
+		title: "Slides e Accordion",
+		subject: new Date().toLocaleDateString("pt-BR"),
 		src: "https://www.computersciencedegreehub.com/wp-content/uploads/2016/02/what-is-coding-1024x683.jpg",
-		to: "pw/slides",
+		to: "slides",
 	},
 ]
 
