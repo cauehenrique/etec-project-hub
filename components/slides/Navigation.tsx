@@ -6,7 +6,7 @@ import styles from "@/styles/slides.module.css"
 
 const Navigation = () => (
 	<nav className={styles.navbarBackground}>
-		<Link href="slides">
+		<Link href="/projects/slides">
 			<a className={styles.logo}>
 				<BookOpenIcon className="w-5 h-5" />
 				<span className="text-lg">Livre-to</span>
@@ -14,9 +14,9 @@ const Navigation = () => (
 		</Link>
 		<div className="w-0.5 h-6 bg-neutral-600" />
 		<Dropdown title="Treinamentos">
-			<Link href="slides/primeiro-livro">
+			<Link href="/projects/slides/escola-austriaca">
 				<a className={styles.dropdownAnchor} href="#">
-					Como escrever seu primeiro livro
+					O que é escola austríaca?
 				</a>
 			</Link>
 		</Dropdown>
